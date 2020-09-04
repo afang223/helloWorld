@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://afang223.github.io/helloworld",
+  "homepage": "https://afang223.github.io/helloworld/",
   "dependencies": {
     "@react-pdf/renderer": "^2.0.0-beta.6",
     "@testing-library/jest-dom": "^4.2.4",

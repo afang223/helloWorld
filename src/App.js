@@ -30,13 +30,6 @@ const Styles = styled.div`
     background-color: #343A40;
   }
 
-  #pdf {
-    -webkit-box-shadow: 0px 0px 5vh 3vh rgba(113,143,153,0.6);
-    -moz-box-shadow: 0px 0px 5vh 3vh rgba(113,143,153,0.6);
-    box-shadow: 0px 0px 5vh 3vh rgba(113,143,153,0.6);
-    margin-top: 5vh;
-  }
-
   #navBar {
     height: 60px;
     width: 100%;
@@ -74,26 +67,29 @@ const Styles = styled.div`
     height: 90vh;
     width: 100vw;
   }
+
+  #resumeFile {
+    height: 50vh;
+    -webkit-box-shadow: 0px 0px 5vh 3vh rgba(113,143,153,0.6);
+    -moz-box-shadow: 0px 0px 5vh 3vh rgba(113,143,153,0.6);
+    box-shadow: 0px 0px 5vh 3vh rgba(113,143,153,0.6);
+    margin-top: 5vh;
+  }
 `;
 
 class App extends Component {
   render() {
     return (
-      // creates a wrapper
       <React.Fragment> 
         <Router>
             <div id="navBar">
               <NavigationBar />
             </div>
-            <Switch>
               <Link to="/#home"/>
               <Link to="/#contact"/>
               <Link to="/#resume"/>
               <Link to="/#projects"/>
-              <Route component={NoMatch} />
-              <Link to="/#anchor"></Link>
-            </Switch>
-          </Router>
+        </Router>
         <Styles>
           <div id = "container">
           <div id = "home"/>
@@ -107,7 +103,7 @@ class App extends Component {
           <Separator/>
           <div id="resume">
             <div className="title">Resume</div>
-            <embed src={require('./assets/Resume.pdf')} width="40%" height="1000px" id="pdf"></embed>
+            <img src={require('./assets/resume.png')} id="resumeFile"></img>
           </div>
           </div>
           <Separator />

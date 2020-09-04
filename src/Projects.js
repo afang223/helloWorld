@@ -67,7 +67,7 @@ export const Projects = () => (
             </video>
         </div>
     </VerticalTimelineElement>
-    <VerticalTimelineElement
+    {/* <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{ background: 'rgb(34, 115, 115)', color: '#fff', borderRadius:'2vh'}}
         contentArrowStyle={{ borderRight: '15px solid  rgb(34, 115, 115)' }}
@@ -87,7 +87,7 @@ export const Projects = () => (
             Your browser does not support the video tag.
             </video>
         </div>
-    </VerticalTimelineElement>
+    </VerticalTimelineElement> */}
     <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{ background: 'rgb(34, 115, 115)', color: '#fff', borderRadius:'2vh'}}
@@ -130,7 +130,7 @@ export const Projects = () => (
             </video>
         </div>
     </VerticalTimelineElement>
-    <VerticalTimelineElement
+    {/* <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{ background: 'rgb(34, 115, 115)', color: '#fff', borderRadius:'2vh'}}
         contentArrowStyle={{ borderRight: '15px solid  rgb(34, 115, 115)' }}
@@ -150,7 +150,7 @@ export const Projects = () => (
             Your browser does not support the video tag.
             </video>
         </div>
-    </VerticalTimelineElement>
+    </VerticalTimelineElement> */}
     <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{ background: 'rgb(34, 115, 115)', color: '#fff', borderRadius:'2vh'}}
